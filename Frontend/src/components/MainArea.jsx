@@ -4,7 +4,7 @@ import TotalStdByClass from '../assets/TotalStdClass.png'
 
 const MainArea = () => {
   return (
-    <div className="h-full w-full mt-3 flex flex-col md:flex-row items-center justify-center overflow-hidden gap-2 md:gap-[70px]">
+    <div className="h-full w-full mt-3 md:mt-[5rem] flex flex-col md:flex-row items-center justify-center overflow-hidden gap-2 md:gap-[70px]">
 
   
       <div className="flex justify-center items-center">

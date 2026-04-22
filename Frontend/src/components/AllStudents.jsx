@@ -81,15 +81,6 @@ const Alldetail = () => {
               <SkeletonRow />
               <SkeletonRow />
               <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
-              <SkeletonRow />
             </>
           ) : (
             Students.map((e, index) => (

@@ -19,16 +19,15 @@ Built with simplicity, functionality… and a little extra motivation 😉.
 
 **Frontend:**
 
-* HTML / CSS / JavaScript *(or React if used)*
+*React.js / Tailwind
 
 **Backend:**
 
-* Node.js / Express *(if used)*
+* Node.js / Express
 
 **Database:**
 
-* MongoDB *(if used)*
-
+* MongoDB 
 ---
 
 ## 📁 Project Structure
@@ -86,11 +85,19 @@ node server.js
 ---
 
 ## 📸 Screenshots
+*DASHBOARD
+ 
+<img width="1357" height="679" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/9f4a94a5-7ac5-451a-b4d5-52ab14bb6c3e" />
 
-*(Add your project screenshots here)*
 
----
+*ADD STUDENT
+ <img width="1353" height="673" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/38d252fc-c81b-4efb-90f9-a1b06db85ffe" />
 
+
+*VIEW  ALL  STUDENTS
+<img width="1357" height="671" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/83841dbd-bbe1-4250-b650-4be214034233" />
+
+ 
 ## 📌 Future Improvements
 
 * 🔐 Authentication system (Login/Signup)
@@ -101,12 +108,5 @@ node server.js
 
 ## 🙌 Acknowledgements
 
-This project was built for learning and practice purposes — and maybe to impress someone special 😄.
+This project was built for learning and practice purposes
 
----
-
-## 📬 Contact
-
-If you have any suggestions or feedback, feel free to reach out!
-
----

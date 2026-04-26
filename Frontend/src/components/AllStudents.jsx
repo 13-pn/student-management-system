@@ -9,7 +9,7 @@ const Alldetail = () => {
 
   function fetchStudents() {
     setloading(true)
-    fetch('http://localhost:3000/AllStudents')
+    fetch('https://student-management-system-of6i.onrender.com/AllStudents')
       .then(res => res.json())
       .then(data => {
         setStudents(data)
@@ -28,7 +28,7 @@ const Alldetail = () => {
   function dltStd(id) {
     const toast2 = toast.loading('Please wait...')
 
-    fetch(`http://localhost:3000/DeleteStudent/${id}`, {
+    fetch(`https://student-management-system-of6i.onrender.com/DeleteStudent/${id}`, {
       method: "DELETE"
     })
       .then(res => res.json())
@@ -48,7 +48,6 @@ const Alldetail = () => {
 
       <table className="w-full  border-collapse text-[10px] sm:text-xs md:text-base" style={{overflowY:'scroll'}}>
 
-        {/* HEADER */}
         <thead className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
           <tr>
             <th className="p-1 md:p-3 text-[15px] border-r border-black">Name</th>
@@ -58,7 +57,6 @@ const Alldetail = () => {
           </tr>
         </thead>
 
-        {/* BODY */}
         <tbody className="bg-white">
 
           {loading ? (

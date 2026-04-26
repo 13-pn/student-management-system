@@ -10,7 +10,7 @@ function UpdateModel({arr,idx,refresh}) {
 
   function updbtn(id){
     let toastId=toast.loading("Please wait...")
-    fetch(`http://localhost:3000/UpdateStudent/${id}`,{
+    fetch(`https://student-management-system-of6i.onrender.com/UpdateStudent/${id}`,{
       method:"PUT",
       headers:{
         'Content-Type':'application/json'

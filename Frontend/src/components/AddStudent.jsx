@@ -10,7 +10,7 @@ const AddStudent = () => {
 
     function handleSubmit(){
         const tst1=toast.loading("please wait....")
-        fetch('http://localhost:3000/adduser',{
+        fetch('https://student-management-system-of6i.onrender.com/adduser',{
           method:'POST',
           headers:{
             'Content-Type':'application/json'
